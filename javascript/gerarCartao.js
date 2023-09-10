@@ -1,15 +1,19 @@
-
-
 function clickCartao(){
  
-    var gerar = Math.floor(Math.random() *9999) + 1000;
+    let gerar = Math.floor(Math.random() *9999) + 1000;
 
-    return alert(`O numero gerado foi: ${gerar}`);
+    console.log(gerar);
+
+    return alert(`O seu cartão de acesso é: ${gerar}`);
 }
 
-var clicks = document.getElementById("gerarCartao");
+const form = document.querySelector('.formulario');
 
-clicks.addEventListener('click', event => {
-    console.log(event.target);
-    alert('O elemento clicado foi o ' + event.target.innerHTML);
+form.addEventListener('click', function(evento){
+    evento.this.disable = true
+
 })
+
+
+
+

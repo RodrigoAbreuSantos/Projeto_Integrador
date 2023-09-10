@@ -41,8 +41,9 @@ nav a {
 }
 
 nav a:hover {
-    color: var(--cor2);
-    background-color: var(--cor3);
+    background-color: rgba(128, 24, 24, 0.144);
+    color: rgb(146, 26, 26);
+    border-radius: 7px;
 }
 .titulo-produto{
     font-family: Arial, Helvetica, sans-serif;
@@ -282,4 +283,26 @@ td, th {
     .lista-beneficios, imagem-beneficios {
         width: 100%
     }
+}
+.logo-header{
+    border-radius: 55px;
+}
+
+.logo-footer{
+    border-radius: 55px;
+}
+
+.header-cartao{
+    padding: -10px;
+}
+.tit-card{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.3em;
+    line-height: 1.5em;
+    text-align: center;
+}
+.texto-card{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.5em;
 }
